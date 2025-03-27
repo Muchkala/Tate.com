@@ -1,0 +1,42 @@
+.basket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: end;
+    background: #000;
+    color: aliceblue;
+    width: 500px;
+    padding: 10px;
+    font-size: 25px;
+
+    .QTY{
+        align-items: center;
+        button{
+            font-size: 24px;
+        }
+    }
+
+    button{
+        background: #2e2e2e;
+        padding: 10px;
+
+        line-height: 0;
+        border-radius: 5px;
+        border: none;
+    }
+    img{
+        object-fit: cover;
+        max-width: 100%;
+    }
+
+}
+
+.css-y7ab46-MuiPaper-root-MuiDrawer-paper{
+    background-color: #000 !important;
+    width: 500px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+}

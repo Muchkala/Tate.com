@@ -1,0 +1,100 @@
+.sectionFirst{
+    background-image: url('../../assets/Img/SectionBgImg.webp');
+    padding: 80px 0px;
+
+    h2{
+        margin-top:20px;
+    }
+
+    .sectionBox{
+      display: flex !important;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+
+      h1.CCh1{
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+      p.CCtxt{
+        padding: 0px 10px;
+        opacity: 0;
+        font-size: 20px;
+        margin-top: 12px;
+        transition:.3s;
+      }
+    }
+
+    .ImgCard {
+        width: 300px;
+        height: 350px;
+        background: rgba(255, 255, 255, 0.2);
+        position: relative ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      
+        .topg-corner-border-frame{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: 2px solid rgb(255, 255, 255);
+      }
+      
+      .top-left{
+        top: 0;
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+      }
+      
+      .top-right{
+        top: 0;
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+      }
+      .bottom-left {
+        bottom: 0;
+        left: 0;
+        border-right: none;
+        border-top: none;
+      }
+      
+      .bottom-right{
+        bottom: 0;
+        right: 0;
+        border-left: none;
+        border-top: none;
+      }
+
+    img.ICimg{
+        object-fit: cover;
+        height: 300px;
+    }
+
+
+    }
+    .slick-center{
+      .ImgCard {
+        background: none;
+        transition: 1s;
+      }
+      .ICimg{
+        object-fit: cover;
+        transition: 1s ;
+      }
+      p.CCtxt{
+        font-size: 20px;
+        margin-top: 12px;
+        opacity: 1;
+        transition: 1s;
+      }
+    }
+}

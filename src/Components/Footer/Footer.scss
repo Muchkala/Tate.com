@@ -1,0 +1,33 @@
+footer{
+    justify-items: center;
+    text-align: center;
+    padding: 30px;
+    background: white !important;
+    h2, h6 , ul , li {
+        color: #000;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+    ul , li{
+        font-family:  "Miriam Libre";
+        font-size: 16px;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: #171717;
+    }
+
+    svg{
+        width: 50px !important;
+        height: 50px !important;
+        margin-left: 20px;
+        path{
+            width: 100px;
+            display: block;
+            height: 100%;
+            color: #000;
+        }
+    }
+}

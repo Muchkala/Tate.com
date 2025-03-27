@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white; 
+    font-family: "Handjet", sans-serif;
+}
+
+
+h2.MBh2{
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+body{
+    background: #000;
+}

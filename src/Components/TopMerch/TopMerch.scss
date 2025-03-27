@@ -1,0 +1,141 @@
+.mainBottom{
+    background: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+    padding-bottom: 50px;
+    background-image: url('../../assets/Img/MainBottomBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .mainBtmTop{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+
+        .mainB{
+            font-size: 18px;
+            max-width: 60%;
+            font-family: 'Roboto';
+            text-transform: uppercase;
+        }
+    
+        .btnMB{
+            button{
+                justify-self: center;
+                width: 180px;
+                height: 57px;
+                font-size: 25px;
+                svg{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+}
+.topMerchContainer{
+    display: flex;
+    flex-direction: column;
+    padding:40px 60px;
+    text-align: center;
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        .ImgCard {
+                width: 200px;
+                height: 200px;
+                position: relative ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+              
+                .topg-corner-border-frame{
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 2px solid rgb(255, 255, 255);
+              }
+              
+              .top-left{
+                top: 0;
+                left: 0;
+                border-right: none;
+                border-bottom: none;
+              }
+              
+              .top-right{
+                top: 0;
+                right: 0;
+                border-left: none;
+                border-bottom: none;
+              }
+              .bottom-left {
+                bottom: 0;
+                left: 0;
+                border-right: none;
+                border-top: none;
+              }
+              
+              .bottom-right{
+                bottom: 0;
+                right: 0;
+                border-left: none;
+                border-top: none;
+              }
+        
+            img.ICimg{
+                object-fit: cover;
+                height: 180px;
+            }
+        }
+        .boxTitleH1{
+            font-size: 32px;
+            font-weight: 400;
+            margin-top: 15px;
+            text-transform: uppercase;
+            color: white;
+            line-height: 1.5;
+        }
+        .boxSpanH1{
+            font-size: 32px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #84935b;
+            line-height: 1;
+        }
+        .addCart{
+            background: none;
+            color: white;
+            font-size: 35px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+            svg{
+                font-size: 35px;
+            }
+        }
+    }
+    .slick-prev::before , .slick-next::before{
+        display: block;
+        font-size: 30px;
+        font-family: "Material Icons"; 
+    }
+    .slick-next::before{
+        content: "arrow_forward";
+    }
+    .slick-prev::before{
+        content: "arrow_back";
+    }
+}
+  

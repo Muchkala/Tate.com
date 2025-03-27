@@ -1,0 +1,69 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    .MuiPaper-root{
+        margin-top: 30px;
+        box-shadow:inset 0px -8px 15px rgba(0, 0, 0, 0.8);
+    }
+    .css-zanzjh-MuiPaper-root-MuiAppBar-root {
+        box-shadow: unset;
+        background: none;
+        transition:
+        background-color 0.3s ease-in-out ;
+        .navLeft{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            .navBars{
+                width: 100px;
+                display: flex;
+                justify-content: center;
+            }
+            ul.menuList {
+                width: 100%;
+                display: flex;
+                text-align: center;
+                li {
+                    width: 20%;
+                    position: relative;
+                    display: inline-block;
+                    padding: 15px 0;
+                    a {
+                        text-transform: uppercase;
+                        font-size: 20px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        color: white;
+                        position: relative;
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%; // Chiziq butunlay ko‘rinib turishi uchun
+                        height: 1px; // Chiziq qalinligi
+                        background: white;
+                        transform: scaleX(0); // Boshlanishda chiziq siqilgan
+                        transform-origin: right ; // Chap tomondan boshlansin
+                        transition: transform 0.5s ease-out; // Animatsiya tezligi
+                    }
+
+                    &:hover::after{
+                        transform: scaleX(1); // To‘liq ochiladi va harakatlanadi
+                        transform-origin: left;
+                    }
+                }
+            }
+            ul.iconsGroup {
+                svg{
+                    width: 20px;
+                    height: 20px;             
+                }
+            }
+        }
+    }
+}

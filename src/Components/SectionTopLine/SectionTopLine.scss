@@ -1,0 +1,27 @@
+.sectionTopLine{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 50px;
+    background-image: url('../../assets/Img/SectionTopBG.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-transform: uppercase;
+
+    .miniSBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+
+        img{
+            object-fit: cover;
+            max-width: 30%;
+        }
+    }
+}

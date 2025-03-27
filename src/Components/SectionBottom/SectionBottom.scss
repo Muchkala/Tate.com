@@ -1,0 +1,22 @@
+.longYBox{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 20px;
+    text-transform: uppercase;
+    
+    h3{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    h6{
+        font-size: 18px;
+        line-height: 1.4;
+        font-weight: 400;
+    }
+
+}

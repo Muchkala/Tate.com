@@ -1,0 +1,19 @@
+.slider-auto-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    z-index: 3;
+
+    .slick-slide{
+        width: auto;
+        text-align: center;
+        .topLine{
+            h3{
+                color: #1c1c1c;
+            }
+        }
+    }
+}
