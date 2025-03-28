@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Pages/Home/Home'
-import { Context } from '../../material-ui/src/hooks/Contexts'
+import { Context } from './hooks/Context'
 import basketReducer, { INITIALIZE } from './hooks/BasketReducer'
 
 export default function App() {

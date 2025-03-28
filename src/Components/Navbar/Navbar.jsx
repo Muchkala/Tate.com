@@ -1,5 +1,5 @@
 import { AppBar, Container, CssBaseline } from '@mui/material';
-import Grid from '@mui/material/Grid2';
+import Grid2 from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
 import "./Navbar.scss";
 import ElevationScroll from '../../providers/navbarScroll';
@@ -14,8 +14,8 @@ export default function Navbar() {
             <ElevationScroll>
                 <AppBar>
                     <Container maxWidth='xl'>
-                        <Grid container sx={{ justifyContent: "space-between", alignItems: "center" }} spacing={2}>
-                        <Grid size={{ xs: 12, md: 7 }} spacing={0} className='navLeft'>
+                        <Grid2 container sx={{ justifyContent: "space-between", alignItems: "center" }} spacing={2}>
+                        <Grid2 size={{ xs: 12, md: 7 }} spacing={0} className='navLeft'>
                                 <div className="navBars">
                                     <HorizontalSplitOutlinedIcon />  
                                 </div>
@@ -28,13 +28,13 @@ export default function Navbar() {
                                         ))
                                     }
                                 </ul>
-                            </Grid>
-                            <Grid xs="auto" size={{ md: 1 }}> 
+                            </Grid2>
+                            <Grid2 xs="auto" size={{ md: 1 }}> 
                                 <ul className='iconsGroup'>
                                     <li><Basket /></li>
                                 </ul>
-                            </Grid>
-                        </Grid>
+                            </Grid2>
+                        </Grid2>
                     </Container>
                 </AppBar>
             </ElevationScroll>

@@ -4,7 +4,7 @@ import './TopMerch.scss'
 import { useGetAllProduct } from './../../hooks/useGetProduct';
 import Loading from './../Loading/Loading';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import { Context } from '../../../../material-ui/src/hooks/Contexts';
+import { Context } from '../../hooks/Context';
 import { Button } from '@mui/material';
 
 export default function Responsive() {
@@ -83,6 +83,5 @@ export default function Responsive() {
                     }
             </Slider>
         </div>
-
 );
 }

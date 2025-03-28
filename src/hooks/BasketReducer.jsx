@@ -38,13 +38,13 @@ const basketReducer = (state, action) => {
                 ...state,
                 basket: state.basket.map(item =>
                     item.id === action.payload
-                        ? { ...item, QTY: item.QTY > 1 ? item.QTY - 1 : 1 } // Prevents QTY from going below 1
+                        ? { ...item, QTY: item.QTY > 1 ? item.QTY - 1 : 1 } 
                         : item
                 )
             };
 
         default:
-            return state; // ✅ Always return state if action is unknown!
+            return state; 
     }
 };
 
